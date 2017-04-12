@@ -27,6 +27,7 @@ def nasdoc():
     return ss
 
 def clear_text():
+    s.set(' ')
     ent.delete(0, 'end')
     
 var = StringVar()
